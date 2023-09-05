@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register | Subject Choices</title>
+    <link rel="stylesheet" href="styleHome.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Below:</h1>
+        <p>Already have an account? <a href="login.html">Log in here</a></p>
+
+        <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+            Username: <input type="text" name="username" /> <br />
+            Password: <input type="text" name="password" /> <br />
+            First Name: <input type="text" name="first_name" /> <br />
+            Last Name: <input type="text" name="last_name" /> <br />
+            Subject Choice 1: <input type="text" name="subject1" /> <br />
+            Subject Choice 2: <input type="text" name="subject2" /> <br />
+            Subject Choice 3: <input type="text" name="subject3" /> <br />
+            <input type="submit" name="submit" value="Register" />
+        </form>
+    </div>
+</body>
+</html>
